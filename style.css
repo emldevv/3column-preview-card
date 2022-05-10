@@ -41,7 +41,7 @@ section {
 }
 
 button {
-    border: none;
+    border: 2px solid;
     border-radius: 5em;
     padding: 1em 2em;
 }
@@ -88,6 +88,13 @@ main {
 #sedan-btn {
     color: var(--primary-clr-bo);
 }
+
+#sedan-btn:hover {
+    color: var(--neutral-clr-tw);
+    border: 2px solid var(--neutral-clr-tw);
+    background-color: var(--primary-clr-bo);
+}
+
 /* Section SUV */
 #suv {
     background-color: var(--primary-clr-dc);
@@ -97,6 +104,12 @@ main {
     color: var(--primary-clr-dc);
 }
 
+#suv-btn:hover {
+    color: var(--neutral-clr-tw);
+    border: 2px solid var(--neutral-clr-tw);
+    background-color: var(--primary-clr-dc);
+}
+
 /* Section luxury */
 #luxury {
     background-color: var(--primary-vdc);
@@ -104,6 +117,12 @@ main {
 
 #luxury-btn {
     color: var(--primary-vdc);
+}
+
+#luxury-btn:hover {
+    color: var(--neutral-clr-tw);
+    border: 2px solid var(--neutral-clr-tw);
+    background-color: var(--primary-clr-vdc);
 }
 
 /* Attribution */
