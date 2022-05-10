@@ -33,6 +33,7 @@
 body,
 main    {
     margin: 0;
+    background-color: var(--neutral-clr-vlg);
 }
 
 /* General styles */
@@ -71,7 +72,7 @@ button {
 /* Main */
 
 main {
-    background-color: var(--neutral-clr-tw);
+    background-color: var(--neutral-clr-vlg);
 }
 /* Card */
 .card {
