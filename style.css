@@ -37,12 +37,13 @@ main    {
 
 /* General styles */
 section {
-
+    padding: 4em;
 }
 
 button {
     border: none;
-    border-radius: 1em;
+    border-radius: 5em;
+    padding: 1em 2em;
 }
 
 /* General typography */
@@ -50,12 +51,14 @@ h1 {
     font-family: var(--ff2);
     font-size: var(--fs-1);
     color: var(--neutral-clr-vlg);
+    text-transform: uppercase;
 }
 
 p {
     font-family: var(--ff1);
     font-size: var(--fs-p);
     color: var(--neutral-clr-tw);
+    line-height: 1.8;
 }
 
 button {
@@ -65,8 +68,17 @@ button {
     background-color: var(--neutral-clr-vlg);
 }
 
-/* Card */
+/* Main */
 
+main {
+    background-color: var(--neutral-clr-tw);
+}
+/* Card */
+.card {
+    border-radius: 1em;
+    margin: 9em 3em;
+    overflow: hidden;
+}
 
 /* Section sedan */
 #sedan {
