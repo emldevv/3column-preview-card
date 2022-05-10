@@ -113,3 +113,25 @@ main {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media(min-width: 900px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card {
+        max-width: 900px;
+        display: flex;
+        margin: 18em 0em 0em 0em
+    }
+
+    section {
+        padding: 4.2em;
+    }
+
+    p {
+        margin-bottom: 6em;
+    }
+
+}
