@@ -1,0 +1,103 @@
+/* Custom Properties */
+:root {
+    font-size: 10px;
+    --fs-0: 3.8rem;
+    --fs-1: 3.2rem;
+    --fs-2: 2.8rem;                                 /* fs = font size */
+    --fs-3: 2.6rem;
+    --fs-4: 2.2rem;
+    --fs-p: 1.5rem;
+
+    --ff1: 'Lexend Deca', sans-serif;               /* ff = font family */
+    --fw1-n: 400;                                   /* fw = font weight */
+
+    --ff2: 'Big Shoulders Display', cursive;
+    --fw2-n: 700;
+
+    --primary-clr-bo: hsl(31, 77%, 52%);          /* Bright orange*/
+    --primary-clr-dc: hsl(184, 100%, 22%);        /* Dark cyan*/
+    --primary-vdc: hsl(179, 100%, 13%);           /* Very dark cyan */
+
+    --neutral-clr-tw: hsla(0, 0%, 100%, 0.75);    /* Transparent white - paragraphs */
+    --neutral-clr-vlg: hsl(0, 0%, 95%);           /* Very light grey - background, headings, buttons */
+}
+
+
+/* Reset properties */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+main    {
+    margin: 0;
+}
+
+/* General styles */
+section {
+
+}
+
+button {
+    border: none;
+    border-radius: 1em;
+}
+
+/* General typography */
+h1 {
+    font-family: var(--ff2);
+    font-size: var(--fs-1);
+    color: var(--neutral-clr-vlg);
+}
+
+p {
+    font-family: var(--ff1);
+    font-size: var(--fs-p);
+    color: var(--neutral-clr-tw);
+}
+
+button {
+    font-family: var(--ff1);
+    font-size: var(--fs-p);
+    font-weight: 400;
+    background-color: var(--neutral-clr-vlg);
+}
+
+/* Card */
+
+
+/* Section sedan */
+#sedan {
+    background-color: var(--primary-clr-bo);
+}
+
+#sedan-btn {
+    color: var(--primary-clr-bo);
+}
+/* Section SUV */
+#suv {
+    background-color: var(--primary-clr-dc);
+}
+
+#suv-btn {
+    color: var(--primary-clr-dc);
+}
+
+/* Section luxury */
+#luxury {
+    background-color: var(--primary-vdc);
+}
+
+#luxury-btn {
+    color: var(--primary-vdc);
+}
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
